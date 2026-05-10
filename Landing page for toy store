@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Zone</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+}
+
+.hero{
+padding:100px 20px;
+background:linear-gradient(135deg,#1e293b,#7c3aed);
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+button{
+background:#22c55e;
+color:white;
+border:none;
+padding:15px 35px;
+font-size:18px;
+border-radius:12px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.games{
+padding:60px 20px;
+}
+
+.card{
+background:#1e293b;
+margin:20px auto;
+padding:20px;
+max-width:320px;
+border-radius:20px;
+box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+.card img{
+width:100%;
+border-radius:15px;
+}
+
+.card h2{
+margin-top:15px;
+}
+
+footer{
+background:#020617;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>🎮 Game Zone</h1>
+
+<p>
+أفضل مكان للألعاب والبلايستيشن والأجهزة الحديثة
+</p>
+
+<button>
+ابدأ اللعب
+</button>
+
+</div>
+
+<div class="games">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop">
+
+<h2>PlayStation 5</h2>
+
+<p>أحدث ألعاب الجيل الجديد</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop">
+
+<h2>Gaming Setup</h2>
+
+<p>أقوى أجهزة الجيمنج</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=1200&auto=format&fit=crop">
+
+<h2>Gaming Accessories</h2>
+
+<p>سماعات - كيبورد - ماوس</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 Game Zone - جميع الحقوق محفوظة
+</p>
+
+</footer>
+
+</body>
+</html>
